@@ -1,0 +1,4 @@
+.vscode
+jumper/game/__pycache__/*
+jumper/__pycache__/*
+.DS_*
