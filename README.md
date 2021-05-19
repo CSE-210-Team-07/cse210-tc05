@@ -36,3 +36,5 @@ root                    (project root folder)
 ---
 * TODO: Add your names and emails here
 Mike Heston - hes20001@byui.edu
+
+Stockton Cannon - can20034@byui.edu
