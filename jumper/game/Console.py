@@ -18,7 +18,7 @@ class Console:
             Prints the Gameboard.
         """
         if Lives >= 4:
-            print("___")
+            print("  ___  ")
         if Lives >= 3:
             print(" /___\ ")
         if Lives >= 2:
@@ -35,3 +35,4 @@ class Console:
         
 
     def displayWord(self):
+        print(self.secretWord.getProgress())

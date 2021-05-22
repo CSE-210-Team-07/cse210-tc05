@@ -35,6 +35,9 @@ class Director:
             self (Director): an instance of Director
 
         """
+        min = input("enter min word length: ")
+        max = input("enter max word length: ")
+        self.secretWord.getNewWord(min,max)
         self.console.displayMan(self.lives)
         while self.lives > 0:
             self.get_inputs()

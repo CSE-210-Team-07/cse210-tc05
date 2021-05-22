@@ -2,8 +2,8 @@ import random
 class SecretWord:
 	
 	def __init__(self):
-		self.secretWord
-		self.wordProgress
+		self.secretWord = "a"
+		self.wordProgress = []
 		
 	
 	def guessWord(self, word):
