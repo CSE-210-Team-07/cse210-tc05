@@ -1,4 +1,5 @@
 import random
+
 class SecretWord:
 	
 	def __init__(self):
@@ -24,13 +25,14 @@ class SecretWord:
 		return False
 	
 	def getNewWord(self, min, max):
+		
 		possWords = []
-		with open("res/words.txt") as wordList:
+		with open("jumper/res/words.txt") as wordList:
 			for word in wordList.readlines():
-				if len(word) >= min:
+				if len(word) >= int(min):
 					possWords.append(word)
 				
-				if len(word) > max:
+				if len(word) > int(max):
 					break
 		self.secretWord = (possWords[random.randrange(len(possWords))]).upper()
 	
